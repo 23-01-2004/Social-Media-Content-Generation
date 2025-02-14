@@ -15,5 +15,9 @@ data/cleaned_data/linkedin_cleaned_images/
 data/cleaned_data/instagram_cleaned_images/
 src/base_models/
 data/preprocessed_data/preprocessed_images
+<<<<<<< Updated upstream
 curated_new_cleaned_images/
 data/raw_data/logo_image/
+=======
+arnab_logo_finder.py
+>>>>>>> Stashed changes

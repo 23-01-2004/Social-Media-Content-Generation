@@ -30,12 +30,12 @@ tokenizer = AutoTokenizer.from_pretrained('src/base_models/falcon1b/tokenizer')
 model = PeftModel.from_pretrained(base_model, 'results/llm_results/fine_tuning_results_v1/checkpoint-115')
 
 # Move to MPS (Mac) or CPU
-# device = "mps"  # Use "cpu" if you don’t have Metal enabled
-# model.to(device)
+device = "mps"  # Use "cpu" if you don’t have Metal enabled
+model.to(device)
 
 # Function for inference
 def generate_text(prompt, max_length=100):
-    inputs = tokenizer(prompt, return_tensors="pt")
+    inputs = tokenizer(prompt, return_tensors="pt").to(device)
     output = model.generate(**inputs, max_new_tokens = 500)
     return tokenizer.decode(output[0], skip_special_tokens=True)
 
