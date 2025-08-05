@@ -1,5 +1,4 @@
-#-------------------Priyam Pal and Anjisnu Roy-----------------
-#-----------------Refactored by Avantika Roy------------------
+
 
 # DEPENDENCIES
 import os
