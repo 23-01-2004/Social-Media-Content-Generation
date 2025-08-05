@@ -1,6 +1,4 @@
-## ----- DONE BY PRIYAM PAL -----
 
-## ----- INFERENCE OF FINE-TUNED T5-BASE MODEL -----
 
 # DEPENDENCIES
 
