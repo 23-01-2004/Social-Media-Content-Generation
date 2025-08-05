@@ -1,4 +1,3 @@
-## ----- DONE BY AVANTIKA ROY -----
 
 # Dependencies
 import os
