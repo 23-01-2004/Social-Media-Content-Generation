@@ -1,5 +1,4 @@
-## ----- DONE BY PRIYAM PAL AND SUBHAS MUKHERJEE -----
-#-----------------Refactored by Avantika Roy------------------
+
 
 # DEPENDENCIES
 import os
